@@ -105,13 +105,16 @@ Model performance was evaluated using key metrics and visual diagnostics from th
 - **R² Score:** ~0.69  
 
 **Evaluation Visuals:**
-- Predicted vs. Actual grade scatter plot  
+- Predicted vs. Actual grade scatter plot
+<p align="center">
+  <img src="assets/result_actual_vs_predicted.png" width="48%">
+</p>
 - Training vs Validation Loss Curve
-- Residual Distribution Plot
-
 <p align="center">
   <img src="assets/result_training_validation_loss.png" width="48%">
-  <img src="assets/result_actual_vs_predicted.png" width="48%">
+</p>
+- Residual Distribution Plot
+<p align="center">
   <img src="assets/result_residuals_distribution.png" width="48%">
 </p>
 
@@ -124,7 +127,7 @@ Model performance was evaluated using key metrics and visual diagnostics from th
 - Training vs Validation Accuracy  
 
 <p align="center">
-  <img src="assets/result_traning_validation_accuracy.png" width="48%">
+  <img src="assets/result_training_validation_accuracy.png" width="48%">
 </p>
 
 > The results indicate that both models generalize well, with stable learning curves and limited overfitting due to dropout and early stopping.
