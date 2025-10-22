@@ -79,7 +79,7 @@ This project features two deep learning models built with TensorFlow/Keras: one 
   
 > This model predicts continuous exam scores based on behavioral and academic features.
 
---
+
 
 ### 🔹 Classification Model — Performance Tier Prediction
 | Layer            | Configuration                     |
