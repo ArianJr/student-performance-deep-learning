@@ -233,7 +233,7 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 ## 🙏 Acknowledgments
 
 - Dataset Source: [Kaggle - Student Performance](https://www.kaggle.com/datasets/anassarfraz13/student-success-factors-and-insights)
-- Libraries: TensorFlow, Keras, Pandas, NumPy, Matplotlib, Seaborn
+- Libraries: TensorFlow, Keras, Scikit-learn, Pandas, NumPy, Matplotlib, Seaborn
 - Inspired by educational data mining techniques and performance analytics research
 
 ---
