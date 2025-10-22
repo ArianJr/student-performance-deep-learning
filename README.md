@@ -1,6 +1,6 @@
 <!-- PROJECT BANNER -->
 <p align="center">
-  <img src="assets/student_performance_dl_thumbnail.png" alt="Student Performance Deep Learning" width="100%">
+  <img src="assets/student_performance_dl_thumbnail.png" alt="Student Performance Deep Learning">
 </p>
 
 <h1 align="center">🎓 Student Performance Prediction Using Deep Learning</h1>
