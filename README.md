@@ -24,7 +24,7 @@
 ## 📘 Overview
 
 This project applies **Deep Learning** to predict student performance from real-world data.  
-It covers the full machine learning lifecycle — **data exploration**, **exploratory data analysis**,**preprocessing**, **modeling**, and **evaluation** — to extract actionable insights that enhance learning outcomes.
+It covers the full machine learning lifecycle — **data exploration**, **exploratory data analysis**, **preprocessing**, **modeling**, and **evaluation** — to extract actionable insights that enhance learning outcomes.
 
 ### 🔍 Objectives
 - Analyze and visualize student performance patterns  
