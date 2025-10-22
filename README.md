@@ -121,8 +121,17 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 
 ---
 
-This format mirrors the clean, professional, and visually appealing style of your [power-output-prediction-ann](https://github.com/ArianJr/power-output-prediction-ann) repository. Feel free to adjust the content as needed to better fit your project's specifics.
-::contentReference[oaicite:0]{index=0}
- 
+<p align="center">
+  Made with ❤️ by <a href="https://github.com/ArianJr" target="_blank">ArianJr</a>
+</p>
 
+<p align="center">
+  <sub>⭐ If you found this project useful, please consider giving it a star! It helps others discover it and supports my work.</sub>
+</p>
 
+---
+
+<p align="center">
+  <img src="https://img.shields.io/github/stars/ArianJr/power-output-prediction-ann?style=social" alt="GitHub stars">
+  <img src="https://img.shields.io/github/forks/ArianJr/power-output-prediction-ann?style=social" alt="GitHub forks">
+</p>
