@@ -25,7 +25,7 @@
 ## 📘 Overview
 
 This project applies **Deep Learning** to predict student performance from real-world data.  
-It covers the full machine learning lifecycle — **data exploration**, **preprocessing**, **modeling**, and **evaluation** — to extract actionable insights that enhance learning outcomes.
+It covers the full machine learning lifecycle — **data exploration**, **exploratory data analysis**,**preprocessing**, **modeling**, and **evaluation** — to extract actionable insights that enhance learning outcomes.
 
 ### 🔍 Objectives
 - Analyze and visualize student performance patterns  
@@ -64,7 +64,7 @@ It covers the full machine learning lifecycle — **data exploration**, **prepro
 
 This project features two deep learning models built with TensorFlow/Keras: one for regression and one for classification. Both models share a clean, interpretable architecture and are optimized for educational data.
 
-🔹 Regression Model — Predicting Exam Scores
+### 🔹 Regression Model — Predicting Exam Scores
 | Layer            | Configuration                     |
 |------------------|-----------------------------------|
 | Input Layer      | Receives preprocessed feature vector |
@@ -79,7 +79,9 @@ This project features two deep learning models built with TensorFlow/Keras: one 
   
 > This model predicts continuous exam scores based on behavioral and academic features.
 
-🔹 Classification Model — Performance Tier Prediction
+-
+
+### 🔹 Classification Model — Performance Tier Prediction
 | Layer            | Configuration                     |
 |------------------|-----------------------------------|
 | Input Layer      | Receives preprocessed feature vector |
