@@ -59,7 +59,7 @@ It covers the full machine learning lifecycle — **data exploration**, **prepro
 | **Environment** | Jupyter Notebook |
 
 ---
----
+
 ## 🚀 Installation
 
 1. **Clone the repository**
@@ -74,6 +74,8 @@ cd student-performance-deep-learning
 ```bash
 pip install -r requirements.txt
 ```
+
+---
 
 ## 🖥️ Usage
 
@@ -132,6 +134,7 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 📧 [Contact Me](arianjafar59@gmail.com) • 🌐 [GitHub Profile](https://github.com/ArianJr)
 
 ---
+
 <p align="center">
   Made with ❤️ by <a href="https://github.com/ArianJr" target="_blank">ArianJr</a>
 </p>
