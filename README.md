@@ -110,8 +110,9 @@ Model performance was evaluated using key metrics and visual diagnostics from th
 - Residual Distribution Plot
 
 <p align="center">
-  <img src="assets/regression_loss_curve.png" width="48%">
-  <img src="assets/pred_vs_actual.png" width="48%">
+  <img src="assets/result_training_validation_loss.png" width="48%">
+  <img src="assets/result_actual_vs_predicted.png" width="48%">
+  <img src="assets/result_residuals_distribution.png" width="48%">
 </p>
 
 
@@ -123,7 +124,7 @@ Model performance was evaluated using key metrics and visual diagnostics from th
 - Training vs Validation Accuracy  
 
 <p align="center">
-  <img src="assets/eval_accuracy_curve.png" width="48%">
+  <img src="assets/result_traning_validation_accuracy.png" width="48%">
 </p>
 
 > The results indicate that both models generalize well, with stable learning curves and limited overfitting due to dropout and early stopping.
