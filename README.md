@@ -17,8 +17,7 @@
   Predicting student performance with TensorFlow neural networks and data-driven insights.
 </p>
 
-> An end-to-end **deep learning pipeline** for analyzing and predicting student academic performance using **TensorFlow/Keras**.  
-> This project uncovers factors affecting success and demonstrates how neural networks can help educators make data-driven decisions.
+> Visual summary of the project: predicting student performance using TensorFlow neural networks and educational analytics.
 
 ---
 
