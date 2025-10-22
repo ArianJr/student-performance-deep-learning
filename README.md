@@ -164,7 +164,7 @@ Model performance was evaluated using key metrics and visual diagnostics from th
 **Evaluation Visuals:**
 - Training vs Validation Accuracy  
 
-![Training vs Validation Accuracy](assets/result_residuals_distribution.png)
+![Training vs Validation Accuracy](assets/result_training_validation_accuracy.png)
 
 > The results indicate that both models generalize well, with stable learning curves and limited overfitting due to dropout and early stopping.
 
