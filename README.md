@@ -21,6 +21,29 @@
 
 ---
 
+### 📑 Table of Contents
+
+- [🎓 Overview](#-overview)
+- [🔍 Objectives](#-objectives)
+- [⚡ Key Features](#-key-features)
+- [📁 Repository Structure](#-repository-structure)
+- [🧪 Technologies Used](#-technologies-used)
+- [🧠 Model Architectures](#-model-architectures)
+  - [🔹 Regression Model — Predicting Exam Scores](#-regression-model--predicting-exam-scores)
+  - [🔹 Classification Model — Performance Tier Prediction](#-classification-model--performance-tier-prediction)
+- [📈 Results & Evaluation](#-results--evaluation)
+  - [📉 Regression Results](#-regression-results)
+  - [📊 Classification Results](#-classification-results)
+- [🚀 Installation](#-installation)
+- [🖥️ Usage](#-usage)
+- [📊 Visualizations](#-visualizations)
+- [🔮 Future Improvements](#-future-improvements)
+- [📄 License](#-license)
+- [🙏 Acknowledgments](#-acknowledgments)
+- [👤 Author](#-author)
+
+---
+
 ## 📘 Overview
 
 This project applies **Deep Learning** to predict student performance from real-world data.  
@@ -62,7 +85,7 @@ It covers the full machine learning lifecycle — **data exploration**, **explor
 
 ---
 
-## 🧩 Technologies Used
+## 🧪 Technologies Used
 
 | Category | Tools / Libraries |
 |-----------|-------------------|
@@ -110,11 +133,11 @@ This project features two deep learning models built with TensorFlow/Keras: one 
 
 ---
 
-## 📉 Results & Evaluation
+## 📈 Results & Evaluation
 
 Model performance was evaluated using key metrics and visual diagnostics from the notebook.
 
-### 📊 Regression Results
+### 📉 Regression Results
 - **MSE:** ~4.48  
 - **MAE:** ~0.89  
 - **R² Score:** ~0.69  
@@ -134,7 +157,7 @@ Model performance was evaluated using key metrics and visual diagnostics from th
 
 
 
-### 🧠 Classification Results
+### 📊 Classification Results
 - **Training Accuracy:** 100%  
 - **Validation Accuracy:** ~98%  
 
@@ -215,9 +238,9 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 
 ---
 
-## 💡 Author
+## 👤 Author
 
-**👤 Arian Jr**  
+**Arian Jr**  
 📧 [Contact Me](arianjafar59@gmail.com) • 🌐 [GitHub Profile](https://github.com/ArianJr)
 
 ---
