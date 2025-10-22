@@ -60,6 +60,75 @@ It covers the full machine learning lifecycle — **data exploration**, **prepro
 
 ---
 
+## 🧠 Model Architectures
+
+This project features two deep learning models built with TensorFlow/Keras: one for regression and one for classification. Both models share a clean, interpretable architecture and are optimized for educational data.
+
+🔹 Regression Model — Predicting Exam Scores
+| Layer            | Configuration                     |
+|------------------|-----------------------------------|
+| Input Layer      | Receives preprocessed feature vector |
+| Hidden Layer 1   | Dense(256), ReLU activation       |
+| Dropout Layer    | Dropout(0.3)                      |
+| Hidden Layer 2   | Dense(128), ReLU activation       |
+| Hidden Layer 3   | Dense(64), ReLU activation        |
+| Output Layer     | Dense(1)                          |
+- Loss Function: Mean Squared Error (MSE)
+- Optimizer: Adam
+- Evaluation Metric: Mean Absolute Error (MAE)
+  
+> This model predicts continuous exam scores based on behavioral and academic features.
+
+🔹 Classification Model — Performance Tier Prediction
+| Layer            | Configuration                     |
+|------------------|-----------------------------------|
+| Input Layer      | Receives preprocessed feature vector |
+| Hidden Layer 1   | Dense(128), ReLU activation       |
+| Hidden Layer 2   | Dense(64), ReLU activation        |
+| Output Layer     | Dense(3), Softmax activation      |
+- Loss Function: Categorical Crossentropy
+- Optimizer: Adam
+- Evaluation Metric: Accuracy
+  
+> This model classifies students into three performance tiers: Low, Medium, and High
+
+---
+
+## 📉 Results & Evaluation
+
+Model performance was evaluated using key metrics and visual diagnostics from the notebook.
+
+### 📊 Regression Results
+- **MSE:** ~4.48  
+- **MAE:** ~0.89  
+- **R² Score:** ~0.69  
+
+**Evaluation Visuals:**
+- Predicted vs. Actual grade scatter plot  
+- Training vs Validation Loss Curve
+- Residual Distribution Plot
+
+<p align="center">
+  <img src="assets/regression_loss_curve.png" width="48%">
+  <img src="assets/pred_vs_actual.png" width="48%">
+</p>
+
+
+### 🧠 Classification Results
+- **Training Accuracy:** 100%  
+- **Validation Accuracy:** ~98%  
+
+**Evaluation Visuals:**
+- Training vs Validation Accuracy  
+
+<p align="center">
+  <img src="assets/eval_accuracy_curve.png" width="48%">
+</p>
+
+> The results indicate that both models generalize well, with stable learning curves and limited overfitting due to dropout and early stopping.
+
+---
+
 ## 🚀 Installation
 
 1. **Clone the repository**
@@ -101,16 +170,16 @@ Visual insights play a key role in understanding student performance:
 - **Class Distribution:** Shows balance of target labels
 - **Model Metrics:** Visualizes loss and accuracy trends
 
-![Correlation Heatmap]
-
 ---
 
-## 📈 Results Summary
+## 🔮 Future Improvements
 
-> 🧾 *Example results (replace with your actual findings)*  
-> - ANN achieved **92% accuracy** on classification task  
-> - Regression R² score: **0.87**  
-> - Most influential factors: **Study time**, **Failures**, **Parental education**  
+- 🧩 **Feature Engineering:** Explore polynomial or interaction features  
+- 🧠 **Hyperparameter Tuning:** Use `KerasTuner` or `Optuna` for optimal architectures  
+- 🧾 **Cross-Validation:** Add k-fold validation to reduce variance  
+- 📊 **Explainability:** Incorporate SHAP or LIME for feature importance visualization  
+- ⚙️ **Deployment:** Wrap models in a Flask API or Streamlit dashboard for real-time prediction  
+- 📈 **Data Expansion:** Include demographic and attendance trends for improved accuracy
 
 ---
 
