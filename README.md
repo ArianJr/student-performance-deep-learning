@@ -52,7 +52,7 @@ It covers the full machine learning lifecycle — **data exploration**, **explor
 | Category | Tools / Libraries |
 |-----------|-------------------|
 | **Language** | Python 3.10+ |
-| **Data Processing** | NumPy, Pandas |
+| **Data Processing** | NumPy, Pandas, scikit-learn |
 | **Visualization** | Matplotlib, Seaborn |
 | **Modeling** | TensorFlow, Keras |
 | **Environment** | Jupyter Notebook |
