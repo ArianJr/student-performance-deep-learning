@@ -205,3 +205,30 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Deep Learning model files
+*.h5
+*.hdf5
+*.ckpt
+*.pb
+*.pt
+*.pth
+*.tflite
+*.onnx
+
+# Training artifacts
+checkpoints/
+logs/
+tensorboard/
+runs/
+saved_models/
+
+# Large datasets
+*.csv
+*.tsv
+*.xlsx
+*.zip
+*.tar.gz
+*.pkl
+*.joblib
+datasets/
