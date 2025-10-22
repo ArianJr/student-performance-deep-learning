@@ -46,7 +46,7 @@
 
 ## 📘 Overview
 
-This project applies **Deep Learning** to predict student performance from real-world data.  
+This project applies **Deep Learning** to predict [student performance from real-world data](https://www.kaggle.com/datasets/anassarfraz13/student-success-factors-and-insights).  
 It covers the full machine learning lifecycle — **data exploration**, **exploratory data analysis**, **preprocessing**, **modeling**, and **evaluation** — to extract actionable insights that enhance learning outcomes.
 
 ### 🔍 Objectives
@@ -232,7 +232,7 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 
 ## 🙏 Acknowledgments
 
-- Dataset Source: [Kaggle](https://www.kaggle.com/datasets/anassarfraz13/student-success-factors-and-insights)
+- Dataset Source: [Kaggle - Student Performance](https://www.kaggle.com/datasets/anassarfraz13/student-success-factors-and-insights)
 - Libraries: TensorFlow, Keras, Pandas, NumPy, Matplotlib, Seaborn
 - Inspired by educational data mining techniques and performance analytics research
 
