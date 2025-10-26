@@ -76,12 +76,7 @@ It covers the full machine learning lifecycle — **data exploration**, **explor
 | `requirements.txt`                        | Python dependencies for running the project                                |
 | `StudentPerformanceFactors.csv`           | Dataset containing student performance features                            |
 | `student_performance_dl_analysis.ipynb`   | Main notebook with EDA, preprocessing, modeling, and evaluation            |
-| `assets/`                                 | Visual assets used in the README (plots, thumbnails, etc.)                 |
-| └── `result_actual_vs_predicted.png`      | Scatter plot comparing actual vs. predicted exam scores                    |
-| └── `result_residuals_distribution.png`   | Distribution of residuals from regression predictions                      |
-| └── `result_training_validation_accuracy.png` | Training vs. validation accuracy over epochs                          |
-| └── `result_training_validation_loss.png` | Training vs. validation loss over epochs                                   |
-| └── `student_performance_dl_thumbnail.png`| Project thumbnail for documentation and sharing                            |
+| `assets/`                                 | Folder Contains Visual assets used in the README (plots, thumbnails, etc.)                 |
 
 ---
 
