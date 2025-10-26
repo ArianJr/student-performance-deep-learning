@@ -76,7 +76,7 @@ It covers the full machine learning lifecycle — **data exploration**, **explor
 | `requirements.txt`                        | Python dependencies for running the project                                |
 | `StudentPerformanceFactors.csv`           | Dataset containing student performance features                            |
 | `student_performance_dl_analysis.ipynb`   | Main notebook with EDA, preprocessing, modeling, and evaluation            |
-| `assets/`                                 | Folder Contains Visual assets used in the README (plots, thumbnails, etc.)                 |
+| `assets/`                                 | Folder contains visual assets used in the README (plots, thumbnails, etc.)                 |
 
 ---
 
